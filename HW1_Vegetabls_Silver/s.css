@@ -1,0 +1,243 @@
+html {
+    background-color: #666666;
+}
+
+body {
+    width: 1260px;
+    height: 880px;
+    margin: 0px auto;
+    background-color: #edf2c5;
+}
+
+header {
+    max-width:1260px;
+    max-height: 103px;;    
+    display: flex;
+    align-items: center;
+}
+
+/*---l_stuff---*/
+
+.Vegetable {
+    display: flex;
+    align-items: center;
+    font-size: 44px;
+    font-family: Arial;
+    font-weight: 900;
+    margin: 36px 469px 5px 160px;
+    color: #778A50;
+}
+/*---r_stuff---*/
+
+.btn_FB {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: flex-end;
+    margin: 60px 10px 18px 0px;
+}
+
+.btn_IG {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: flex-end;
+    margin-top:60px;
+    margin-bottom: 18px;
+    margin-right: 10px;
+    padding-right:10px;
+    border-right: 1px solid #778a50 ;
+
+}
+
+.btn_login {
+    width:46px;
+    height:15px;
+    margin: 60px 10px 18px 0px;
+
+    font-size:14px;
+
+    border: 1px solid #778a50;
+    border-radius: 3px;
+    padding: 4px 6px 4px 6px;
+}
+
+.btn_join {
+    width: 35px;
+    height:15px;
+    margin-top:60px;
+    margin-right: 160px;
+    margin-bottom: 18px;
+
+    font-size:14px;
+
+    border: 1px solid #778a50;
+    border-radius: 3px;
+    padding: 4px 6px 4px 6px;
+}
+
+.btn_link {
+    text-decoration: none;
+    color: #778a50;
+    font-weight:bold;
+    font-family:arial;
+    font-size:14px;
+}
+
+ /*---nav_bar---*/
+
+.nav_box {
+    width: 940px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    background-color: #778A50;
+    border-radius: 3px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+li {
+    font-size: 16px;
+    font-family: Arial;
+
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 60px;
+    margin-bottom: 11px;
+
+}
+
+.list_link {
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 16px;
+    color: #edf2c5;
+
+}
+
+/*---pumpkin---*/
+.img_pumpkin {
+    width: 940px;
+    height: 448px;
+    margin: 0px 160px 0px;
+}
+
+/*---two_column---*/
+.two_column {
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+
+
+}
+/*---subhead---*/
+.vege_title {
+    width: 444px;
+    height: 45px;
+    background-color: #778A50;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.sub_vegetable{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    color: #edf2c5;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 30px;     
+}
+
+/*---sub_contact---*/
+.contact_title {
+    width: 444px;
+    height: 45px;
+    background-color: #778A50;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-left: 52px;
+
+}
+.sub_contact {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    color: #edf2c5;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 30px;        
+}
+
+/*---vegeimg---*/
+.vegeimg {
+
+    background-color: #edf2c5;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+
+/*---contact_body---*/
+.contact_body {
+    width: 444px;
+    height: 140px;
+    background-color: #f7fbda;
+    margin-left: 52px;
+    margin-top: 15px;
+
+}
+
+.for {
+    font-family: Arial;
+    font-size: 12px;
+    color: #7d7d7d;
+    padding: 15px 15px 0px;
+}
+
+.line_contact {
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+    margin-left: 15px;
+}
+
+.email{
+    font-family: Arial;
+    font-size: 12px;
+    color: #7d7d7d;
+    padding-left: 15px;
+}
+/*---footer---*/
+footer {
+    width: 1260px;
+    height: 60px;
+    background-color: #778A50;
+    margin-top: 35px;
+}
+.copyrights_text {
+    width: 301px;
+    height: 14px;
+    font-size: 12px;
+    font-family: Arial;
+    color: #edf2c5;
+    text-align: center;
+    padding: 23px 479px 23px 480px;
+}
